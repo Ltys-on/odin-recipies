@@ -1,15 +1,25 @@
 /* odin-recipes */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    color: darkgray;
-    text-align: center;
+    color: rgb(71, 70, 70);
+    margin: auto 300px;
+    background-color: rgb(245, 245, 245);
+}
+.title {
+    padding: 12px;
+    width: fit-content;
+    margin: 8px 0px;
 }
 h1 {
     font-size: 52px;
     color: rgb(40, 38, 38);
     font-weight: 900;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 img {
     width: 600px;
@@ -24,4 +34,16 @@ h6 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
     color: darkcyan;
+}
+.contents {
+    border: 2px solid black;
+    width: fit-content;
+    margin: 0px 12px;
+    background-color: white;
+    padding: 8px 24px 8px 0px;
+}
+li {
+    margin: 8px 8px;
+    padding: 12px;
+    background-color: aliceblue;
 }
